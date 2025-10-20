@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: darkslategray;
+}
+header {
+  background: dodgerblue;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+section, main {
+  padding: 25px;
+  text-align: center;
+}
+footer {
+  background: darkblue;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+/* === ID Selectors === */
+#title { color: aqua; }
+#para1 { color: darkslategray; }
+#para2 { color: slategray; }
+#examples { margin-top: 25px; }
+#box1, #box2, #box3, .box {
+  background: lightblue;
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 12px;
+  border-radius: 6px;
+  border: 1px solid cornflowerblue;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#box1:hover, #box2:hover, #box3:hover, .box:hover {
+  background: deepskyblue;
+}
+/* === Class Selectors === */
+.header { background: purple; }
+.title { color: white; }
+.text { color: darkslategray; }
+.box {
+  background: lavender;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 12px;
+  border: 1px solid thistle;
+  border-radius: 8px;
+}
+/* === Tag Selectors === */
+h1 { color: darkblue; }
+h2 { color: navy; }
+p { line-height: 1.6; }
+ul { list-style-type: square; text-align: left; display: inline-block; }
+li { margin: 8px 0; }
+img { border-radius: 8px; display: block; margin: 15px auto; }
